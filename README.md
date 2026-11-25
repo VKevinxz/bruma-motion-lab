@@ -8,9 +8,11 @@ An educational, dependency-free motion design playground that explores how anima
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FVKevinxz%2Fbruma-motion-lab)
 
-**Live demo:** deployment URL pending. The repository is configured for Vercel; this link will be updated once the production domain is confirmed.
+**Live demo:** [bruma-motion-lab.vercel.app](https://bruma-motion-lab.vercel.app/)
 
-![Bruma Motion Lab — interactive café hero](docs/preview.webp)
+[![Live demo](https://img.shields.io/badge/Live%20demo-Vercel-black?logo=vercel)](https://bruma-motion-lab.vercel.app/)
+
+[![Bruma Motion Lab — interactive café hero](docs/preview.webp)](https://bruma-motion-lab.vercel.app/)
 
 ## What this project demonstrates
 
@@ -80,7 +82,7 @@ Import the existing GitHub repository at [Vercel](https://vercel.com/new). If th
 | Output Directory | `bruma-demo` |
 | Environment Variables | None |
 
-The root `vercel.json` explicitly overrides the install and build commands with empty strings and selects `bruma-demo` as the static output. Keep the root directory at `./` so Vercel reads this configuration. Deploy the `main` branch; future pushes trigger automatic deployments once the Git integration is connected. After production deployment, replace the pending live-demo line above with the confirmed URL.
+The root `vercel.json` explicitly overrides the install and build commands with empty strings and selects `bruma-demo` as the static output. Keep the root directory at `./` so Vercel reads this configuration. Deploy the `main` branch; future pushes trigger automatic deployments once the Git integration is connected. The production deployment is available at [bruma-motion-lab.vercel.app](https://bruma-motion-lab.vercel.app/).
 
 ## Reference and scope
 
