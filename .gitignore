@@ -1,0 +1,11 @@
+# Local references and source artwork (not for publication)
+/reference-analysis/
+/generated-assets/
+/*.webp
+/*.mp4
+/.vercel/
+node_modules/
+.env
+.env.*
+.DS_Store
+Thumbs.db

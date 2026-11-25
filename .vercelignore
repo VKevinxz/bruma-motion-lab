@@ -1,0 +1,5 @@
+reference-analysis/
+generated-assets/
+*.mp4
+/*.webp
+.git/

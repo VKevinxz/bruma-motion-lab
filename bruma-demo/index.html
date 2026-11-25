@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#19150e"><title>Bruma · Café de especialidad</title><link rel="stylesheet" href="styles.css"><script src="app.js" defer></script></head>
+<body>
+<header class="header"><a class="brand" href="#barra" aria-label="Bruma, inicio"><i>bruma</i><span>CAFÉ</span><small>PALERMO SOHO</small></a><nav aria-label="Principal"><a href="#barra">LA BARRA</a><a href="#dulce">PARA ACOMPAÑAR</a><a href="#visitanos">VISÍTANOS</a></nav><div class="header-end"><span class="status"><b></b> ABIERTO · CAFÉ DE DÍA</span><button id="bag" class="bag" aria-label="Abrir bolsa, 0 productos"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 8h14l2 13H3L5 8Z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></svg><span id="bag-count">0</span></button></div></header>
+<main>
+<section id="barra" class="scroll-scene" aria-label="Carta de cafés">
+<div class="hero">
+<div class="visual" aria-hidden="true"><div id="table" class="table"><svg class="rim" viewBox="0 0 1000 1000"><defs><path id="rim-path" d="M 500,500 m -474,0 a 474,474 0 1,1 948,0 a 474,474 0 1,1 -948,0"/></defs><text><textPath href="#rim-path" startOffset="0%">BUENOS AIRES · BRUMA · CAFÉ DE ESPECIALIDAD · PALERMO SOHO · BUENOS AIRES · BRUMA · CAFÉ DE ESPECIALIDAD · PALERMO SOHO · </textPath></text></svg></div><div id="orbit"></div></div>
+<div class="hero-shade"></div>
+<div class="hero-copy">
+<div class="eyebrow"><span id="current-number">01</span><span class="tiny-line"></span><span>04</span></div>
+<h1 id="coffee-name" aria-live="polite">Flat <em>white</em></h1><div class="sub-label">✳ <span id="coffee-category">DOBLE ESPRESSO</span></div>
+<p id="coffee-desc">Doble ristretto y leche texturizada fina. Chico, intenso y sedoso: el que pide todo Palermo a las nueve.</p>
+<div class="tastes" id="tastes"></div>
+<div class="buy-row"><div class="price" id="price" aria-live="polite"></div><div class="magnet-area"><button class="primary magnet" id="order">PEDIR <span>↗</span></button></div></div>
+</div>
+<div class="hero-bottom"><div class="indicators" aria-label="Elegir café" id="indicators"></div><div class="scroll-tip"><span id="scroll-label">DESLIZA PARA DEGUSTAR</span><button id="next" aria-label="Siguiente café">↓</button></div></div>
+</div></section>
+<section class="sweets" id="dulce">
+<div class="sweets-copy"><p class="section-kicker">— PARA ACOMPAÑAR</p><h2>Lo dulce, <em>recién</em><br>horneado.</h2><p>Horneamos dos veces por día. Si llegás después de las cinco, preguntá: a veces queda algo, a veces no.</p></div>
+<div class="sweet-menu" id="sweet-menu"></div>
+<div class="hover-image" id="hover-image" aria-hidden="true"><img alt=""></div>
+</section>
+<section class="visit" id="visitanos"><p class="section-kicker">— PALERMO SOHO · BUENOS AIRES</p><h2>Una pausa.<br><em>Un buen café.</em></h2><p>Bruma · Café de especialidad</p><a href="#barra" class="outline">VOLVER A LA BARRA ↑</a></section>
+</main>
+<footer><i>bruma</i><span>CAFÉ DE ESPECIALIDAD · DEMO</span><a href="#barra">VOLVER ARRIBA ↑</a></footer>
+<dialog id="drawer" class="drawer" aria-labelledby="drawer-title"><div class="drawer-inner" id="drawer-content"></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>
