@@ -2,6 +2,8 @@
 
 **Six web animation techniques. One interactive café experience.**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 An educational, dependency-free motion design playground that explores how animation can communicate state, guide attention and provide feedback in a realistic product interface. Inspired by the six-effect café demo shared by [@capazeroo](https://www.tiktok.com/@capazeroo). Independently reconstructed from the visual reference; not the original site's source code or an official café website.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FVKevinxz%2Fbruma-motion-lab)
@@ -67,7 +69,18 @@ In `app.js`, start with `geometry()`, `render()`, `tick()` and `updateTarget()` 
 
 ## Deploy on Vercel
 
-Import this repository at [Vercel](https://vercel.com/new). Use the repository root, framework preset **Other**, no install or build command, and output directory **bruma-demo**. These defaults are recorded in `vercel.json`. No environment variables are needed. After production deployment, replace the pending live-demo line above with the confirmed URL.
+Import the existing GitHub repository at [Vercel](https://vercel.com/new). If the repository is not listed, grant the Vercel GitHub app access to `VKevinxz/bruma-motion-lab`.
+
+| Setting | Value |
+| --- | --- |
+| Root Directory | `./` (repository root) |
+| Framework Preset | Other |
+| Install Command | Empty (skip) |
+| Build Command | Empty (skip) |
+| Output Directory | `bruma-demo` |
+| Environment Variables | None |
+
+The root `vercel.json` explicitly overrides the install and build commands with empty strings and selects `bruma-demo` as the static output. Keep the root directory at `./` so Vercel reads this configuration. Deploy the `main` branch; future pushes trigger automatic deployments once the Git integration is connected. After production deployment, replace the pending live-demo line above with the confirmed URL.
 
 ## Reference and scope
 
@@ -75,4 +88,4 @@ The project is a reconstruction for learning frontend animation. The original re
 
 ## License
 
-A code license has not yet been selected. The reference creator and third-party visual identity retain their respective rights. Asset redistribution and commercial reuse are subject to their applicable terms; a public repository does not by itself grant a reuse license.
+The original implementation code and documentation are licensed under the [MIT License](LICENSE). Image assets, reference material and third-party names or visual identity are not covered by this code license; their reuse remains subject to applicable rights and terms.
